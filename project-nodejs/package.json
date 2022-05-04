@@ -1,0 +1,11 @@
+{
+  "name": "project-nodejs",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Shmeka Smith",
+  "license": "ISC"
+}
