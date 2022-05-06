@@ -1,0 +1,11 @@
+body {
+    font: size 12pt;
+    font-family: "Gill Sans", sans-serif;
+}
+
+button {
+    color: white;
+    background: gray;
+    font-size: 18px;
+    padding: 5px;
+}

@@ -1,34 +1,3 @@
-function genPass () {
-    
-    length = document.getElementById("length").value
-    var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    var nums = "123456789"
-    var specChar = "~!@#$%^&*()_+|}{:?><,./;][=-`"
-
-    length = 8;
-    password = "";
-    for (var i = 0, n = charset.length; i < length; ++i) {
-        password += charset.charAt(Math.floor(Math.random() * n));
-    }
-
-    alert("password hello");
-
-
-
-}
-
-
-function charOnly() {
-    length = 8;
-    password = "";
-    for (var i = 0, n = charset.length; i < length; ++i) {
-        password += charset.charAt(Math.floor(Math.random() * n));
-    }
-    alert(password);
-}
-
-//document.querySelector('button').addEventListener('click', genPass);
-
 function randomPassword(length) {
     
     alpha = document.getElementById("alpha");
@@ -50,7 +19,7 @@ function randomPassword(length) {
         var i = Math.floor(Math.random() * chars.length);
         pass += chars.charAt(i);
     }
-    myform.row_password.value = pass;
+    myform.password.value = pass;
 }
 
 
